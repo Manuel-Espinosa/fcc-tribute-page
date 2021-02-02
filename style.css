@@ -1,0 +1,109 @@
+    body{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    header {
+        position:fixed;
+        top:0px;
+        left:0px;
+        width: 100%;
+        background: darkslategrey;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3px 0 3px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+    }
+
+    main{
+
+        position:relative;
+        background: lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    footer{
+        bottom:0px; 
+        width: 100%;
+        background: darkslategrey;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+ 
+
+    .name{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        color:black;
+        
+    }
+
+    #header-footer-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color:white;
+    
+    }
+
+    #creator{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color:white;
+        margin-right: 5px;
+        
+        
+    }
+
+    .bio{
+        background: lightgray;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .bioImage{
+        max-width: 100%;
+        height: auto;
+        width: 500px;
+        display: block;
+        border-color: darkslategray;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    figcaption{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        font-style: italic;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #bornInfo{
+        margin: 0;
+    }
+
+    .bioText{
+        font-size: 1.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        
+    }
+
+    #tribute-link{
+        font-style: italic;
+        color:cadetblue;
+    }
+
